@@ -204,3 +204,38 @@ h1 {
   html { scroll-behavior: auto; }
   *, *::before, *::after { transition: none !important; }
 }
+
+
+.highlight {
+  background: linear-gradient(transparent 62%, #e8e2c7 62%);
+  color: inherit;
+  padding: 0 .05em;
+  text-decoration: underline;
+  text-decoration-thickness: .06em;
+  text-underline-offset: .18em;
+  text-decoration-color: #b6ad87;
+}
+
+.highlight a {
+  text-decoration-color: #9f9673;
+}
+
+.experience-group + .experience-group {
+  margin-top: 38px;
+}
+
+.experience-group .item-kicker {
+  margin-bottom: 18px;
+  font-weight: 700;
+  color: var(--muted);
+}
+
+.location-link {
+  margin-top: -4px;
+  margin-bottom: 1.35rem;
+  font-size: .9rem;
+}
+
+.books-intro {
+  margin-bottom: 28px;
+}
