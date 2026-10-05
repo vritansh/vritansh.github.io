@@ -95,14 +95,11 @@ h1 {
 .profile-links a, .quiet-link { font-size: .9rem; }
 
 .section {
-  display: grid;
-  grid-template-columns: 72px minmax(0, 1fr);
-  gap: 34px;
   border-top: 1px solid var(--line);
   padding: 64px 0 78px;
   scroll-margin-top: 82px;
 }
-.section-content { min-width: 0; }
+.section-content { min-width: 0; max-width: 900px; }
 .section-content h2 {
   font-family: var(--serif);
   font-size: clamp(2rem, 4vw, 3rem);
@@ -181,7 +178,7 @@ h1 {
   .header-inner { align-items: flex-start; padding: 16px 0; }
   .navigation { gap: 12px 16px; justify-content: flex-end; }
   .profile { min-height: auto; padding: 88px 0 74px; }
-  .section { grid-template-columns: 1fr; gap: 12px; padding: 48px 0 60px; }
+  .section { padding: 48px 0 60px; }
   .research-grid { grid-template-columns: 1fr; }
   .timeline-item { grid-template-columns: 1fr; gap: 8px; }
   .section-heading-row { flex-direction: column; }
@@ -238,4 +235,24 @@ h1 {
 
 .books-intro {
   margin-bottom: 28px;
+}
+
+
+.interest-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 24px;
+}
+
+.interest-list span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 38px;
+  padding: 8px 14px;
+  border: 1px solid var(--line-strong);
+  border-radius: 999px;
+  background: var(--surface);
+  font-size: .92rem;
+  line-height: 1;
 }
