@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "agent_id": "https://vritansh.github.io/",
+  "name": "Vritansh Kamal — research profile",
+  "description": "Static discovery metadata for AI assistants reading Vritansh Kamal's public research portfolio.",
+  "protocol": "static-site-discovery",
+  "protocol_version": "1.0",
+  "discovery_url": "https://vritansh.github.io/.well-known/agent.json",
+  "handshake": {
+    "method": "GET",
+    "endpoint": "https://vritansh.github.io/.well-known/agent.json",
+    "expected_status": 200,
+    "verify_fields": [
+      "agent_id",
+      "protocol_version",
+      "capabilities"
+    ],
+    "next": "GET https://vritansh.github.io/llms.txt",
+    "interaction": "read-only",
+    "live_session_supported": false
+  },
+  "capabilities": [
+    "profile_discovery",
+    "research_summary",
+    "public_link_navigation"
+  ],
+  "context_url": "https://vritansh.github.io/llms.txt",
+  "homepage": "https://vritansh.github.io/",
+  "links": {
+    "github": "https://github.com/vritansh",
+    "linkedin": "https://www.linkedin.com/in/vritansh-k/",
+    "medium": "https://medium.com/@vritansh14"
+  },
+  "authentication": {
+    "required": false,
+    "supported": false
+  },
+  "tools": [],
+  "caveats": [
+    "This is static metadata, not an A2A or MCP service.",
+    "No conversational endpoint or interactive tool handshake is available."
+  ]
+}
