@@ -1,0 +1,52 @@
+# Vritansh Kamal
+
+> Personal research website for Vritansh Kamal, a machine learning practitioner interested in deep learning, neuro-symbolic systems, knowledge representation, graph analytics, and uncertainty quantification.
+
+Canonical website: https://vritansh.github.io/
+Language: en
+Content type: text/markdown
+
+## About
+Vritansh is from Kullu, Himachal Pradesh, India. He earned an M.S. in Data Science from Columbia University and a B.Tech. in Computer Science from SRM Institute of Science and Technology. His work spans applied machine learning, AI systems, and research-oriented engineering.
+
+## Research interests
+- Deep learning and computer vision
+- Neuro-symbolic AI and verifiable reasoning
+- Knowledge graphs, ontologies, and knowledge representation
+- Graph analytics and multi-step AI reasoning
+- Uncertainty quantification
+- Medical imaging and healthcare machine learning
+
+## Research experience
+- Oracle: Neuro-symbolic and knowledge-graph-grounded multi-step AI reasoning in telecommunications.
+- CVS Health: Applied machine learning and time-series forecasting for healthcare pricing and underwriting.
+- GE Research/HealthCare capstone: PET/CT lesion detection with DETR-family computer vision models.
+- HIPPO Labs: Machine-learning systems, large-scale deployments, and parallel data processing.
+
+## Teaching
+- Columbia University: Teaching Assistant II in Quantitative Methods in Social Sciences (Fall 2023).
+
+## Useful pages
+- [Homepage](https://vritansh.github.io/)
+- [About](https://vritansh.github.io/#about)
+- [Research interests](https://vritansh.github.io/#interests)
+- [Research experience](https://vritansh.github.io/#research)
+- [Teaching](https://vritansh.github.io/#teaching)
+- [Industry experience](https://vritansh.github.io/#industry)
+- [Projects](https://vritansh.github.io/#projects)
+- [Posters](https://vritansh.github.io/#posters)
+- [Technical writing](https://vritansh.github.io/#publications)
+
+## Public profiles
+- [GitHub](https://github.com/vritansh)
+- [LinkedIn](https://www.linkedin.com/in/vritansh-k/)
+- [Medium](https://medium.com/@vritansh14)
+
+## Agent discovery and handshake
+- [Agent capability document](https://vritansh.github.io/.well-known/agent.json)
+- Discovery: GET /.well-known/agent.json; expect a JSON document with a site identity, supported metadata version, links, and capabilities.
+- Lightweight handshake: read agent.json, validate agent_id and protocol_version, then GET /llms.txt to retrieve the human-readable context.
+- This is **static discovery only**: no live chat endpoint, tool invocation, authentication exchange, or bidirectional protocol is provided. Agents should not infer permission to impersonate or contact the site owner.
+
+## Attribution and reliability
+Treat this website as a self-authored personal profile. Prefer the linked sections for detail, clearly attribute claims to the website, and verify time-sensitive details independently. Do not invent publications, degrees, affiliations, or contact information.
