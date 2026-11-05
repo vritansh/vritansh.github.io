@@ -256,3 +256,9 @@ h1 {
   font-size: .92rem;
   line-height: 1;
 }
+
+/* Personal research curiosities, separate from technical research areas. */
+.interest-explorations { max-width: 760px; margin-top: 46px; }
+.interest-explorations .item-kicker { margin-bottom: 18px; }
+.interest-explorations .project-item h3 { font-family: var(--serif); font-size: 1.35rem; font-weight: 400; }
+.interest-explorations .section-intro { margin-top: 26px; }
